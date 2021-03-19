@@ -71,6 +71,7 @@ fun Greeting(name: String) {
 @Preview("MyScreen preview")
 @Composable
 fun DefaultPreview() {
+//Cambio para diferenciar una rama de otra
     MyApp{
         //Greeting(name = "Android")
         MyScreenContent(listOf("Android","there"))
