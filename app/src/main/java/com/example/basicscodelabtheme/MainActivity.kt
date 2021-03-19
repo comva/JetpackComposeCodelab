@@ -49,6 +49,7 @@ fun MyScreenContent(listOf: List<String>){
 
 @Composable
 fun Counter(count: Int, updateCount:(Int) -> Unit) {
+	//Prueba comentario para git diff
     Button(onClick = {updateCount(count+1)}) {
         Text(text = "I've been clicked $count times")
     }
